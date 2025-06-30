@@ -32,7 +32,6 @@
 - [Nota Técnica](#nota-técnica-expandir)
 - [Licença](#licença)
 - [Destaques e Aplicações](#destaques-e-aplicações)
-- [Melhorias na Apresentação](#melhorias-na-apresentação)
 
 ---
 
