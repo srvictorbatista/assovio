@@ -6,6 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)        [![GitHub Repository](https://img.shields.io/badge/github%20-%20Repository-%23D8B00??style=for-the-badge&logo=github&logoColor=white)](https://github.com/srvictorbatista/assovio)
 
 **Made Withe:**
+
  ![Python Slin](https://img.shields.io/badge/python%20-%203%20Slin-%23F1BF7A??style=for-the-badge&logo=python&logoColor=white)        ![Docker-Compose](https://img.shields.io/badge/docker%20-%20Compose%20-%233776AB??style=for-the-badge&logo=docker&logoColor=white)      ![ApiKey](https://img.shields.io/badge/ApiKey%20-%20WEB%20Security%20-%23FC6D26??style=for-the-badge&logo=caddy&logoColor=white)       ![Json](https://img.shields.io/badge/json%20-%20Web%20Response%20-%231B1C30??style=for-the-badge&logo=json&logoColor=white)       ![RAW](https://img.shields.io/badge/RAW%20-%20IA%20Models%20-%237033FD??style=for-the-badge&logo=ray&logoColor=white)  ![FFMPEG](https://img.shields.io/badge/FFMPEG%20-%20Converter%20-%23007808??style=for-the-badge&logo=ffmpeg&logoColor=white)        
 
 **RESTs exemples** (Oaut-opts):
