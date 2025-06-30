@@ -204,73 +204,17 @@ axios.post('http://localhost:55507/escutar', form, {
 
 
 
-
 ## Variáveis de Ambiente
 
-Variável
-
-Tipo
-
-Padrão
-
-Descrição
-
-`INTERNAL_PORT`
-
-string
-
-`55507`
-
-Porta onde o serviço ficará disponível.
-
-`MODEL_NAME`
-
-string
-
-`vosk-model-pt-fb-v0.1.1-20220516_2113`
-
-Nome do modelo Vosk na pasta `modelos/`. Use o modelo menor (`vosk-model-small-pt-0.3`) para mais velocidade e menor precisão, ou o maior para mais assertividade e maior latência.
-
-`AUTHENTICATION_API_KEY`
-
-string
-
-`XXXXXXXXXX`
-
-Chave de API para autenticação do endpoint. Se vazio (`""`), a autenticação é desabilitada.
-
-`INTERNAL_LIMIT`
-
-inteiro
-
-`10`
-
-Limite máximo para envio de arquivos de áudio (em MB).
-
-`DICIONARIO_DE_FREQUENCIA`
-
-string
-
-`NAO`
-
-Ativa (`SIM`, `1`, `S`, `sim`) ou desativa (`NAO`, `0`, `N`, `nao`) a correção via dicionário SymSpell. Aumenta a acurácia com mais consumo de processamento.
-
-`WORKERS`
-
-inteiro
-
-`1`
-
-Número de processadores físicos dedicados ao processamento.
-
-`THREADS`
-
-inteiro
-
-`4`
-
-Número de núcleos virtuais (threads) utilizados. Influencia o uso de cache e memória.
-
+| Variável                 | Tipo    | Padrão                                   | Descrição                                                                                                                                         |
+|--------------------------|---------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| `INTERNAL_PORT`          | string  | `55507`                                  | Porta onde o serviço ficará disponível.                                                                                                           |
+| `MODEL_NAME`             | string  | `vosk-model-pt-fb-v0.1.1-20220516_2113`  | Nome do modelo Vosk na pasta `modelos/`. Use o modelo menor (`vosk-model-small-pt-0.3`) para mais velocidade e menor precisão, ou o maior para mais assertividade e maior latência. |
+| `AUTHENTICATION_API_KEY`| string  | `XXXXXXXXXX`                             | Chave de API para autenticação do endpoint. Se vazio (`""`), a autenticação é desabilitada.                                                      |
+| `INTERNAL_LIMIT`         | inteiro | `10`                                     | Limite máximo para envio de arquivos de áudio (em MB).                                                                                           |
+| `DICIONARIO_DE_FREQUENCIA`| string | `NAO`                                    | Ativa (`SIM`, `1`, `S`, `sim`) ou desativa (`NAO`, `0`, `N`, `nao`) a correção via dicionário SymSpell. Aumenta a acurácia com mais consumo de processamento. |
+| `WORKERS`                | inteiro | `1`                                      | Número de processadores físicos dedicados ao processamento.                                                                                       |
+| `THREADS`                | inteiro | `4`                                      | Número de núcleos virtuais (threads) utilizados. Influencia o uso de cache e memória.                                                            |
 
 
 
