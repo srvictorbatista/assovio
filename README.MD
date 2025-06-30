@@ -181,7 +181,7 @@ print(response.json())
 
 ```
 
-### Exemplo em JavaScript (Node.js com axios e form-data)
+### Exemplo em Node.js com axios e form-data
 
 ```javascript
 const axios = require('axios');
