@@ -307,7 +307,10 @@ Protegendo o serviço contra acessos não autorizados.
 <br>
  Uma forma **simples e pratica** de gerar sua própria apikey única. É executando o seguinte comando **a partir de um terminal BASH** (o que inclui o próprio container, se preferir):
  
-**``` clear && printf "\n\nSua apikey: \033[1;37;44m %s \033[0m\n\n\n\n" "$(tr -dc 'A-Z0-9' </dev/urandom | head -c10)"```**
+** ``` 
+clear && printf "\n\nSua apikey: \033[1;37;44m %s \033[0m\n\n\n\n" "$(tr -dc 'A-Z0-9' </dev/urandom | head -c10)"
+``` **
+
 Onde "-c" corresponde ao total de caracteres desejados. Neste exemplo, 10.
 
 _Os áudios recebidos, são **imediatamente excluídos** do servidor, assim que transcritos. **Não restando dados remanescentes** da operação._ 
