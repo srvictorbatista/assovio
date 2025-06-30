@@ -1,0 +1,38 @@
+# docker-compose up --build
+
+# Teste em: 
+#  curl -X POST -H "apikey: XXXXXXXXXX" -F "audio=@seuarquivo.wav" http://localhost:55507/escutar
+
+
+
+
+services:
+  assovio:
+    build:
+      context: .
+      dockerfile: Dockerfiles/assovio
+    container_name: assovio
+    ports:
+      - "55507:55507"
+    networks:
+      - self-hosting01
+    volumes:
+      - ./Dockerfiles/assovio-modelos:/app/modelos
+    environment:
+      - AUTHENTICATION_TYPE=apikey
+      - AUTHENTICATION_API_KEY=XXXXXXXXXX # Estabeleça uma api-key aqui
+      # - MODEL_NAME=vosk-model-small-pt-0.3 # Modelo menor (90M), mais rápido e menos preciso
+      - MODEL_NAME=vosk-model-pt-fb-v0.1.1-20220516_2113  # Modelo maior (2.55Gb), mais assertivo e mais lento
+      - INTERNAL_PORT=55507
+      - DICIONARIO_DE_FREQUENCIA=NAO # SIM | NAO, S | N, sim |nao, 1 | 0, usar dicionadio (acurácia adicional, com mais processamento) 
+      - INTERNAL_LIMIT=10 # Estabelece o limite para envio em Mb
+      - WORKERS=1 # processadores fisicos empenhados (recorre ao processador)
+      - THREADS=4 # nucleos virtuais empenhados (recorre a cach e memoria)
+    restart: unless-stopped
+
+
+networks:
+  self-hosting01:
+    external: true # usa a rede já existente (false indica que o Docker sempre deve CRIAR uma rede nova)
+    name: self-hosting01
+
