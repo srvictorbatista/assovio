@@ -1,4 +1,4 @@
-#   ![Assovio](https://img.icons8.com/ios-filled/50/AAAAAA/whispering.png)      Assovio – Transcrição de Áudio  HTTP Request 
+#   ![Assovio](https://img.icons8.com/ios-filled/50/AAAAAA/whispering.png)      Assovio – API de Transcrição de Áudio  HTTP Request 
 ## Transcrição de Áudio em Português Brasileiro via HTTP (Oaut-opt)
 
 
