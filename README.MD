@@ -41,7 +41,7 @@
 
 Oferece uma rota única HTTP (`/escutar`) que aceita arquivos via `multipart/form-data` e retorna a transcrição em JSON.
 
-Por padrão, são aceitos diveros formatos de audio e vídeo.
+Por padrão, são aceitos diversos formatos de áudio e vídeo.
 
 ---
 
