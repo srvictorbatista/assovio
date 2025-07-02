@@ -91,11 +91,12 @@ curl -X POST -F "audio=@seuarquivo.wav" http://localhost:55507/escutar
 Você pode importar todos os exemplos de requisições disponíveis, através de um único **[arquivo collection, compatível com Insômnia e Postman](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json)**. O que inclui requisições adicionais, como o **envio em formato JSON em base64** (com e sem prefixos), o envio de arquivos a partir de **URLs externas** e de **formulários multipart/form-data** com input file.
 Ao importar o arquivo collection, você também terá acesso a uma **documentação complementar** (para consulta rápida na **guia Docs/Overview**, destes ambientes). Com uma breve descrição de cada um dos REQUESTs disponíveis.
 
-Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Insômnia**:
+Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Insômnia**: <BR>
  **``` Scratch Pad > Import > Choose Files ```**
+
 <BR> &nbsp;
 
-Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Postman**:
+Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Postman**: <BR>
  **``` My Workspace > Import > Files ```**
 
 <!--
