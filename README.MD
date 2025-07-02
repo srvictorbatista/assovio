@@ -291,7 +291,9 @@ assovio/
 ## Como Executar
 
 1.  Com **docker** e **docker-compose** instalado em seu ambiente. Execute: 
-`docker-compose up --build -d` 
+```bash
+docker-compose up --build -d
+``` 
     
 2.  Pronto! Agora é só desfrutar do serviço.
 
