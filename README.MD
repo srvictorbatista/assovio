@@ -92,24 +92,22 @@ Você pode importar todos os exemplos de requisições disponíveis, através de
 Ao importar o arquivo collection, você também terá acesso a uma **documentação complementar** (para consulta rápida na **guia Docs/Overview**, destes ambientes). Com uma breve descrição de cada um dos REQUESTs disponíveis.
 
 Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Insômnia**:
-
-**``` Scratch Pad > Import > Choose Files ```**
-<BR>
+ **``` Scratch Pad > Import > Choose Files ```**
+<BR> &nbsp;
 
 Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Postman**:
-
-**``` My Workspace > Import > Files ```**
-
-<!--
-🡇 [Download: ASSOVIO.collection.json](https://raw.githubusercontent.com/srvictorbatista/assovio/refs/heads/main/ASSOVIO.collection.json)
--->
+ **``` My Workspace > Import > Files ```**
 
 <!--
 🡇 [Download: ASSOVIO.collection.json](https://raw.githubusercontent.com/srvictorbatista/assovio/refs/heads/main/ASSOVIO.collection.json)
 -->
 
+<!--
+🡇 [Download: ASSOVIO.collection.json](https://raw.githubusercontent.com/srvictorbatista/assovio/refs/heads/main/ASSOVIO.collection.json)
+-->
 
-<p> &nbsp</p>
+
+<p> &nbsp;</p>
 A seguir. Exemplos simples de requisição para o endpoint ``/escutar``, incluindo o envio do arquivo de áudio e o cabeçalho de autenticação `apikey`:
 
 ----------
