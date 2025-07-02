@@ -11,7 +11,7 @@
 
 **RESTs exemples** (Oaut-opts):
 
-![cURL BASH](https://img.shields.io/badge/cURL%20-%20BASH-%23EEEEEE??style=for-the-badge&logo=curl&logoColor=white)         ![Insomnia](https://img.shields.io/badge/Insomnia-%23AD29B6??style=for-the-badge&logo=insomnia&logoColor=white)       ![Postman](https://img.shields.io/badge/Postman-%23FC6D26??style=for-the-badge&logo=postman&logoColor=white)              
+[![cURL BASH](https://img.shields.io/badge/cURL%20-%20BASH-%23EEEEEE??style=for-the-badge&logo=curl&logoColor=white)](#)         [![Insomnia](https://img.shields.io/badge/Insomnia-%23AD29B6??style=for-the-badge&logo=insomnia&logoColor=white)](#)       [![Postman](https://img.shields.io/badge/Postman-%23FC6D26??style=for-the-badge&logo=postman&logoColor=white)](#)              
 ![PHP All Versions](https://img.shields.io/badge/PHP%20-%20All%20Versions-%23777BB4??style=for-the-badge&logo=php&logoColor=white)               ![JS All Versions](https://img.shields.io/badge/javascript%20-%20All%20Versions-%23F7DF1E??style=for-the-badge&logo=javascript&logoColor=white)                          ![Python All Versions](https://img.shields.io/badge/python%20-%20All%20Versions-%23F1BF7A??style=for-the-badge&logo=python&logoColor=white)         ![Node.JS All Versions](https://img.shields.io/badge/node.Js%20-%20All%20Versions-%235FA04E??style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 
