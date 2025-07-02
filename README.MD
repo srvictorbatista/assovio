@@ -360,7 +360,7 @@ Arquivos gerados durante o processamento são removidos automaticamente após ca
 Assovio é uma solução robusta e eficiente para transcrição de áudio em português, com foco em privacidade, desempenho e escalabilidade. Seu design modular facilita adaptações para diversos ambientes, do pessoal ao corporativo.
 
 O **dicionário interno** é construído a partir de um índice amostral de 200 mil palavras classificadas e indexadas por [**WordFrequency**](https://www.wordfrequency.info/portuguese.asp) com base na frequancia de ocorrencia na lingua portuguesa, no período de 2012 a 2019. Obtido em https://www.wordfrequency.info/portuguese.asp neste projeto inclui um script de automação que baixa esta amostra e constroi um dicionário interno com base nestes dados. Segundo a fonte, os índices são baseados em palavras obtidas e analisadas do [**corpus Web/Dialects**](https://www.corpusdoportugues.org/web-dial/) do Corpus do Português.
-Para quem gosta deste tipo de pesquisa/analise estatística, vale a pena dar uma olhada em [**jusText**](https://pypi.org/project/jusText). Trata-se da ferramenta em python usada pela **Web/Dialects** para limpeza durante a catalogação dos dados (webScrap) e você pode [ver mais sobre ela aqui](https://code.google.com/archive/p/justext). Como dados tecncos e uma [amostra](https://nlp.fi.muni.cz/projects/justext) de uso online. Sendo uma poderosa e útil ferramenta para criação de recursos linguísticos.
+Para quem gosta deste tipo de pesquisa/análise estatística, vale a pena dar uma olhada em [**jusText**](https://pypi.org/project/jusText). Trata-se da ferramenta em python usada pela **Web/Dialects** para limpeza durante a catalogação dos dados (webScrap) e você pode [ver mais sobre ela aqui](https://code.google.com/archive/p/justext). Como dados tecncos e uma [amostra](https://nlp.fi.muni.cz/projects/justext) de uso online. Sendo uma poderosa e útil ferramenta para limpeza e criação de recursos linguísticos.
 
 
 
@@ -446,7 +446,7 @@ A Licença MIT é uma escolha popular para projetos de software de código abert
 
 ## Destaques e Aplicações
 
--   Domino e privacidade total (100% offline).
+-   Domíno e privacidade total (100% offline).
     
 -   Baixo custo operacional sem dependência de serviços pagos na nuvem.
     
