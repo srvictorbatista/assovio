@@ -323,10 +323,7 @@ Sendo **``seuarquivo.wav``**  o arquivo de áudio que você deseja transcrever e
 
 ## Segurança
 
-Se configurada, a variável `AUTHENTICATION_API_KEY` requer que as requisições incluam o cabeçalho:
-
-`` apikey: XXXXXXXXXX ``
-Protegendo o serviço contra acessos não autorizados.
+Se configurada, a variável `AUTHENTICATION_API_KEY` requer que as requisições incluam o cabeçalho: ` apikey: XXXXXXXXXX ` Protegendo o serviço contra acessos não autorizados.
 
 É altamente recomendado que você **substitua a serie de "XXXXXXXXXX" por sua apikey única**. 
 <br>
