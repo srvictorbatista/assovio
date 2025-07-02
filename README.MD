@@ -95,7 +95,7 @@ Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/a
 
  **``` Scratch Pad > Import > Choose Files ```**
 
-<BR> &nbsp;
+
 
 Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Postman**: <BR>
 
