@@ -82,25 +82,28 @@ curl -X POST -H "apikey: XXXXXXXXXX" -F "audio=@seuarquivo.wav" http://localhost
 
 ```bash
 curl -X POST -F "audio=@seuarquivo.wav" http://localhost:55507/escutar
-
 ```
+<BR>
 
+### Usando Insômnia / Postman
+[![Download](https://img.shields.io/badge/[🡇]%20DOWNLOAD%3A%20-%20ASSOVIO.collection.json-00FFFF?style=for-the-badge&logo=download&labelColor=032340&logoColor=3776AB)](https://raw.githubusercontent.com/srvictorbatista/assovio/refs/heads/main/ASSOVIO.collection.json)
 
-### Usando Insôminia / Postman
-
-Você pode importar todos os exemplos de requsisções disponíveis, através de um único **[arquivo collection compatível com Insomina e Postman](https://github.com/srvictorbatista/assovio/raw/refs/heads/main/ASSOVIO.collection.json)**. O que inclui requisições adicionais, como o **envio em formato JSON em base64** (com e sem prefixos) e o envio de arquivos a partir de **URLs externas**.
+Você pode importar todos os exemplos de requisições disponíveis, através de um único **[arquivo collection, compatível com Insômnia e Postman](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json)**. O que inclui requisições adicionais, como o **envio em formato JSON em base64** (com e sem prefixos), o envio de arquivos a partir de **URLs externas** e de **formulários multipart/form-data** com input file.
 Ao importar o arquivo collection, você também terá acesso a uma **documentação complementar** (para consulta rápida na **guia Docs/Overview**, destes ambientes). Com uma breve descrição de cada um dos REQUESTs disponíveis.
 
-Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/raw/refs/heads/main/ASSOVIO.collection.json)** no Insôminia:
+Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Insômnia**:
 **`` Scratch Pad > Import > Choose Files ``**
 
-Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/raw/refs/heads/main/ASSOVIO.collection.json)** no Postman:
+Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Postman**:
 **`` My Workspace > Import > Files ``**
 
+<!--
+🡇 [Download: ASSOVIO.collection.json](https://raw.githubusercontent.com/srvictorbatista/assovio/refs/heads/main/ASSOVIO.collection.json)
+-->
 
 
 <p> &nbsp</p>
-Exemplos simples de requisição para o endpoint ``/escutar``, incluindo o envio do arquivo de áudio e o cabeçalho de autenticação `apikey`:
+A seguir. Exemplos simples de requisição para o endpoint ``/escutar``, incluindo o envio do arquivo de áudio e o cabeçalho de autenticação `apikey`:
 
 ----------
 
@@ -264,7 +267,7 @@ Estrutura de pastas do repositório:
 assovio/
 ├── README.MD
 ├── docker-compose.yml
-├── ASSOVIO.collection.json # Arquivo de importação collection compatível com Insôminia e Postman
+├── ASSOVIO.collection.json # Arquivo de importação,compatível com Insômnia e Postman
 ├── audio.ogg               # Áudio para demonstração
 ├── audio.mp3               # Áudio para demonstração
 ├── Dockerfiles/
