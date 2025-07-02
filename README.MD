@@ -275,7 +275,7 @@ Estrutura de pastas do repositório:
 assovio/
 ├── README.MD
 ├── docker-compose.yml
-├── ASSOVIO.collection.json # Arquivo de importação,compatível com Insômnia e Postman
+├── ASSOVIO.collection.json # Arquivo de importação, compatível com Insômnia e Postman
 ├── audio.ogg               # Áudio para demonstração
 ├── audio.mp3               # Áudio para demonstração
 ├── Dockerfiles/
