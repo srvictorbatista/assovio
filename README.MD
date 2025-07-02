@@ -93,13 +93,13 @@ Ao importar o arquivo collection, você também terá acesso a uma **documentaç
 
 Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Insômnia**: <BR>
 
- **``` Scratch Pad > Import > Choose Files ```**
+ **`` Scratch Pad > Import > Choose Files ``**
 
-
+<BR> &nbsp;
 
 Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Postman**: <BR>
 
- **``` My Workspace > Import > Files ```**
+ **`` My Workspace > Import > Files ``**
 
 <!--
 🡇 [Download: ASSOVIO.collection.json](https://raw.githubusercontent.com/srvictorbatista/assovio/refs/heads/main/ASSOVIO.collection.json)
