@@ -392,7 +392,7 @@ Como exemplo prático de **dimensionamento eficiente**, menciono requisições c
 
 Diante disso, **recomendo fortemente a realização de testes controlados e ajustes finos nos parâmetros**, considerando as características específicas de cada aplicação. Estou convicto de que **os resultados obtidos — mesmo com infraestrutura modesta — podem ser comparáveis (ou superiores)** aos oferecidos por soluções comerciais de grande porte e alto custo.
 
-Adicionalmente, destaco que **a crescente vilanização de serviços externos** (como clouds e plataformas SaaS) — muitas vezes criticados por seus custos elevados, tráfego excessivo ou uso intensivo de processamento — tem motivado a busca por **alternativas autônomas, mais eficientes e economicamente viáveis**. Esta proposta foi concebida justamente com esse propósito: **oferecer performance de alto nível, com independência operacional e controle total sobre os recursos disponibilizados**.
+Adicionalmente, destaco que **a crescente vilanização de serviços externos** (como clouds e plataformas SaaS) — muitas vezes criticados por seus custos elevados, tráfego excessivo ou uso intensivo de processamento — tem motivado a busca por **alternativas autônomas, mais eficientes e economicamente viáveis**. Este projeto foi concebido justamente com esse objetivo: **oferecer performance de alto nível, com independência operacional e controle total sobre os recursos disponibilizados**.
 
 </details>
 
