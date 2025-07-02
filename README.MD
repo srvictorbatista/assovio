@@ -1,18 +1,18 @@
-#   ![Assovio](https://img.icons8.com/ios-filled/50/AAAAAA/whispering.png)      Assovio – API de Transcrição de Áudio  HTTP Request 
+#   [![Assovio](https://img.icons8.com/ios-filled/50/AAAAAA/whispering.png)](https://github.com/srvictorbatista/assovio)      Assovio – API de Transcrição de Áudio  HTTP Request 
 ## Transcrição de Áudio em Português Brasileiro via HTTP (Oaut-opt)
 
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)        [![GitHub Repository](https://img.shields.io/badge/github%20-%20Repository-%23D8B00??style=for-the-badge&logo=github&logoColor=white)](https://github.com/srvictorbatista/assovio)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)                          [![GitHub Repository](https://img.shields.io/badge/github%20-%20Repository-%23D8B00??style=for-the-badge&logo=github&logoColor=white)](https://github.com/srvictorbatista/assovio)
 
 **Made Withe:**
 
- ![Python Slin](https://img.shields.io/badge/python%20-%203%20Slin-%23F1BF7A??style=for-the-badge&logo=python&logoColor=white)        ![Docker-Compose](https://img.shields.io/badge/docker%20-%20Compose%20-%233776AB??style=for-the-badge&logo=docker&logoColor=white)      ![ApiKey](https://img.shields.io/badge/ApiKey%20-%20WEB%20Security%20-%23FC6D26??style=for-the-badge&logo=caddy&logoColor=white)       ![Json](https://img.shields.io/badge/json%20-%20Web%20Response%20-%231B1C30??style=for-the-badge&logo=json&logoColor=white)       ![RAW](https://img.shields.io/badge/RAW%20-%20IA%20Models%20-%237033FD??style=for-the-badge&logo=ray&logoColor=white)  ![FFMPEG](https://img.shields.io/badge/FFMPEG%20-%20Converter%20-%23007808??style=for-the-badge&logo=ffmpeg&logoColor=white)        
+ [![Python Slin](https://img.shields.io/badge/python%20-%203%20Slin-%23F1BF7A??style=for-the-badge&logo=python&logoColor=white)](#)                          [![Docker-Compose](https://img.shields.io/badge/docker%20-%20Compose%20-%233776AB??style=for-the-badge&logo=docker&logoColor=white)](#)                          [![ApiKey](https://img.shields.io/badge/ApiKey%20-%20WEB%20Security%20-%23FC6D26??style=for-the-badge&logo=caddy&logoColor=white)](#)                          [![Json](https://img.shields.io/badge/json%20-%20Web%20Response%20-%231B1C30??style=for-the-badge&logo=json&logoColor=white)](#)                          [![RAW](https://img.shields.io/badge/RAW%20-%20IA%20Models%20-%237033FD??style=for-the-badge&logo=ray&logoColor=white)](#)                          [![FFMPEG](https://img.shields.io/badge/FFMPEG%20-%20Converter%20-%23007808??style=for-the-badge&logo=ffmpeg&logoColor=white)](#)        
 
 **RESTs exemples** (Oaut-opts):
 
 [![cURL BASH](https://img.shields.io/badge/cURL%20-%20BASH-%23EEEEEE??style=for-the-badge&logo=curl&logoColor=white)](#)         [![Insomnia](https://img.shields.io/badge/Insomnia-%23AD29B6??style=for-the-badge&logo=insomnia&logoColor=white)](#)       [![Postman](https://img.shields.io/badge/Postman-%23FC6D26??style=for-the-badge&logo=postman&logoColor=white)](#)              
-![PHP All Versions](https://img.shields.io/badge/PHP%20-%20All%20Versions-%23777BB4??style=for-the-badge&logo=php&logoColor=white)               ![JS All Versions](https://img.shields.io/badge/javascript%20-%20All%20Versions-%23F7DF1E??style=for-the-badge&logo=javascript&logoColor=white)                          ![Python All Versions](https://img.shields.io/badge/python%20-%20All%20Versions-%23F1BF7A??style=for-the-badge&logo=python&logoColor=white)         ![Node.JS All Versions](https://img.shields.io/badge/node.Js%20-%20All%20Versions-%235FA04E??style=for-the-badge&logo=nodedotjs&logoColor=white)
+[![PHP All Versions](https://img.shields.io/badge/PHP%20-%20All%20Versions-%23777BB4??style=for-the-badge&logo=php&logoColor=white)](#)                          [![JS All Versions](https://img.shields.io/badge/javascript%20-%20All%20Versions-%23F7DF1E??style=for-the-badge&logo=javascript&logoColor=white)](#)                          [![Python All Versions](https://img.shields.io/badge/python%20-%20All%20Versions-%23F1BF7A??style=for-the-badge&logo=python&logoColor=white)](#)                          [![Node.JS All Versions](https://img.shields.io/badge/node.Js%20-%20All%20Versions-%235FA04E??style=for-the-badge&logo=nodedotjs&logoColor=white)](#)
 
 
 ## Índice
@@ -101,13 +101,12 @@ Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/a
 
  **`` My Workspace > Import > Files ``**
 
-<!--
-🡇 [Download: ASSOVIO.collection.json](https://raw.githubusercontent.com/srvictorbatista/assovio/refs/heads/main/ASSOVIO.collection.json)
--->
 
 <!--
 🡇 [Download: ASSOVIO.collection.json](https://raw.githubusercontent.com/srvictorbatista/assovio/refs/heads/main/ASSOVIO.collection.json)
 -->
+
+
 
 <BR>
 <p> &nbsp;</p>
