@@ -368,7 +368,7 @@ Para quem gosta deste tipo de pesquisa/analise estatística, vale a pena dar uma
 <details>
 
 ###  &nbsp; <a href="#nota-tecnica-expandir" target="_blank">Aspectos Importantes</a>
- &nbsp; &nbsp; <summary id="several-resume"><em>Este projeto foi testado e revisado por pares, antes da sua primeira publicação.</em></summary>
+ &nbsp; &nbsp; <summary id="several-resume"><em>Este projeto foi testado e revisado por pares, antes da sua publicação.</em></summary>
 
 
 <br>
