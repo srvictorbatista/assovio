@@ -446,7 +446,7 @@ A Licença MIT é uma escolha popular para projetos de software de código abert
 
 ## Destaques e Aplicações
 
--   Domíno e privacidade total (100% offline).
+-   Domínio e privacidade total (100% offline).
     
 -   Baixo custo operacional sem dependência de serviços pagos na nuvem.
     
