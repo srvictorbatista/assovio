@@ -341,6 +341,8 @@ clear && printf "\n\nSua apikey: \033[1;37;44m %s \033[0m\n\n\n\n" "$(tr -dc 'A-
 
 Onde "-c" corresponde ao total de caracteres desejados. Neste exemplo, 10.
 
+<BR>
+
 _Os áudios recebidos, são **imediatamente excluídos** do servidor, assim que transcritos. **Não restando dados remanescentes** da operação._ 
 
 Além disto. O serviço é fornecido em um **ambiente docker**, o que já garante seu **isolamento por padrão**. E ao mesmo tempo, a **conectividade necessária para desfrutar** do serviço com segurança e controles de acesso isoladamente.
