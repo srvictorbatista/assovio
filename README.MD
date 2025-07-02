@@ -85,8 +85,22 @@ curl -X POST -F "audio=@seuarquivo.wav" http://localhost:55507/escutar
 
 ```
 
+
+### Usando Insôminia / Postman
+
+Você pode importar todos os exemplos de requsisções disponíveis, através de um único **[arquivo collection compatível com Insomina e Postman](https://github.com/srvictorbatista/assovio/raw/refs/heads/main/ASSOVIO.collection.json)**. O que inclui requisições adicionais, como o **envio em formato JSON em base64** (com e sem prefixos) e o envio de arquivos a partir de **URLs externas**.
+Ao importar o arquivo collection, você também terá acesso a uma **documentação complementar** (para consulta rápida na **guia Docs/Overview**, destes ambientes). Com uma breve descrição de cada um dos REQUESTs disponíveis.
+
+Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/raw/refs/heads/main/ASSOVIO.collection.json)** no Insôminia:
+**`` Scratch Pad > Import > Choose Files ``**
+
+Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/raw/refs/heads/main/ASSOVIO.collection.json)** no Postman:
+**`` My Workspace > Import > Files ``**
+
+
+
 <p> &nbsp</p>
-Claro! Que não poderia faltar exemplos de uso simples que fazem a requisição para o endpoint `/escutar` do Assovio, incluindo o envio do arquivo de áudio e o cabeçalho de autenticação `apikey`:
+Exemplos simples de requisição para o endpoint ``/escutar``, incluindo o envio do arquivo de áudio e o cabeçalho de autenticação `apikey`:
 
 ----------
 
@@ -248,8 +262,9 @@ Estrutura de pastas do repositório:
 
 ```
 assovio/
-├── README.md
+├── README.MD
 ├── docker-compose.yml
+├── ASSOVIO.collection.json # Arquivo de importação collection compatível com Insôminia e Postman
 ├── audio.ogg               # Áudio para demonstração
 ├── audio.mp3               # Áudio para demonstração
 ├── Dockerfiles/
@@ -305,7 +320,7 @@ apikey: XXXXXXXXXX
 Protegendo o serviço contra acessos não autorizados.
 É altamente recomendado que você **substitua a serie de "XXXXXXXXXX" por sua apikey única**. 
 <br>
- Uma forma **simples e pratica** de gerar sua própria apikey única. É executando o seguinte comando **a partir de um terminal BASH** (o que inclui o próprio container, se preferir):
+ Uma forma **simples e prática** de gerar sua própria apikey única. É executando o seguinte comando **a partir de um terminal BASH** (o que inclui o próprio container, se preferir):
  
 ```
 clear && printf "\n\nSua apikey: \033[1;37;44m %s \033[0m\n\n\n\n" "$(tr -dc 'A-Z0-9' </dev/urandom | head -c10)"
@@ -329,7 +344,7 @@ Arquivos gerados durante o processamento são removidos automaticamente após ca
 
 Assovio é uma solução robusta e eficiente para transcrição de áudio em português, com foco em privacidade, desempenho e escalabilidade. Seu design modular facilita adaptações para diversos ambientes, do pessoal ao corporativo.
 
-O **dicionário interno** é buildado a partir de um índice amostral de 200 mil palavras classificadas e indexadas por [**WordFrequency**](https://www.wordfrequency.info/portuguese.asp) com base na frequancia de ocorrencia na lingua portuguesa, no período de 2012 a 2019. Obtido em https://www.wordfrequency.info/portuguese.asp neste projeto inclui um script de automação que baixa esta amostra e constroi um dicionário interno com base nestes dados. Segundo a fonte, os índices são baseados em palavras obtidas e analisadas do [**corpus Web/Dialects**](https://www.corpusdoportugues.org/web-dial/) do Corpus do Português.
+O **dicionário interno** é construído a partir de um índice amostral de 200 mil palavras classificadas e indexadas por [**WordFrequency**](https://www.wordfrequency.info/portuguese.asp) com base na frequancia de ocorrencia na lingua portuguesa, no período de 2012 a 2019. Obtido em https://www.wordfrequency.info/portuguese.asp neste projeto inclui um script de automação que baixa esta amostra e constroi um dicionário interno com base nestes dados. Segundo a fonte, os índices são baseados em palavras obtidas e analisadas do [**corpus Web/Dialects**](https://www.corpusdoportugues.org/web-dial/) do Corpus do Português.
 Para quem gosta deste tipo de pesquisa/analise estatística, vale a pena dar uma olhada em [**jusText**](https://pypi.org/project/jusText). Trata-se da ferramenta em python usada pela **Web/Dialects** para limpeza durante a catalogação dos dados (webScrap) e você pode [ver mais sobre ela aqui](https://code.google.com/archive/p/justext). Como dados tecncos e uma [amostra](https://nlp.fi.muni.cz/projects/justext) de uso online. Sendo uma poderosa e útil ferramenta para criação de recursos linguísticos.
 
 
