@@ -95,7 +95,7 @@ Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/a
 
  **`` Scratch Pad > Import > Choose Files ``**
 
-<BR>
+
 
 Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Postman**: <BR>
 
@@ -109,7 +109,7 @@ Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/a
 🡇 [Download: ASSOVIO.collection.json](https://raw.githubusercontent.com/srvictorbatista/assovio/refs/heads/main/ASSOVIO.collection.json)
 -->
 
-
+<BR> 
 <p> &nbsp;</p>
 
 A seguir. Exemplos simples de requisição para o endpoint ``/escutar``, incluindo o envio do arquivo de áudio e o cabeçalho de autenticação ``apikey``:
