@@ -108,7 +108,8 @@ Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/a
 
 
 <p> &nbsp;</p>
-A seguir. Exemplos simples de requisição para o endpoint ``/escutar``, incluindo o envio do arquivo de áudio e o cabeçalho de autenticação `apikey`:
+
+A seguir. Exemplos simples de requisição para o endpoint ``/escutar``, incluindo o envio do arquivo de áudio e o cabeçalho de autenticação ``apikey``:
 
 ----------
 
