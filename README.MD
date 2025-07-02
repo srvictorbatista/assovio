@@ -325,10 +325,9 @@ Sendo **``seuarquivo.wav``**  o arquivo de áudio que você deseja transcrever e
 
 Se configurada, a variável `AUTHENTICATION_API_KEY` requer que as requisições incluam o cabeçalho:
 
-```
-apikey: XXXXXXXXXX
-```
+`` apikey: XXXXXXXXXX ``
 Protegendo o serviço contra acessos não autorizados.
+
 É altamente recomendado que você **substitua a serie de "XXXXXXXXXX" por sua apikey única**. 
 <br>
  Uma forma **simples e prática** de gerar sua própria apikey única. É executando o seguinte comando **a partir de um terminal BASH** (o que inclui o próprio container, se preferir):
@@ -347,7 +346,7 @@ Além disto. O serviço é fornecido em um **ambiente docker**, o que já garant
 
 ## Limpeza de Arquivos Temporários
 
-Arquivos gerados durante o processamento são removidos automaticamente após cada requisição, garantindo segurança e economia de espaço.
+Arquivos gerados durante o processamento são removidos automaticamente após cada requisição, garantindo segurança, privacidade e economia de espaço.
 
 ----------
 
