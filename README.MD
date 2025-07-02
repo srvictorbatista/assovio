@@ -330,6 +330,7 @@ Se configurada, a variável `AUTHENTICATION_API_KEY` requer que as requisições
 Protegendo o serviço contra acessos não autorizados.
 
 <BR>
+
 É altamente recomendado que você **substitua a serie de "XXXXXXXXXX" por sua apikey única**. 
 <BR>
  Uma forma **simples e prática** de gerar sua própria apikey única. É executando o seguinte comando **a partir de um terminal BASH** (o que inclui o próprio container, se preferir):
