@@ -1,4 +1,58 @@
+# -------------------------
+# Arquivos locais específicos do projeto
+# -------------------------
 NOTAS.TXT
+
+# Ignora a pasta de modelos (específica e qualquer outra com o mesmo nome)
+Dockerfiles/assovio-modelos/
+**/assovio-modelos/
+
+# -------------------------
+# Arquivos e pastas comuns de backup e temporários
+# -------------------------
+*.zip
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# -------------------------
+# Arquivos do sistema operacional
+# -------------------------
+.DS_Store      # macOS
+Thumbs.db      # Windows
+ehthumbs.db    # Windows
+Icon?          # macOS
+Desktop.ini    # Windows
+
+# -------------------------
+# Arquivos de IDEs e editores
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------
+# Ambiente Python (caso use)
+# -------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+env/
+venv/
+
+# -------------------------
+# Docker (conteúdo gerado)
+# -------------------------
+*.tar
+*.pid
+*.sock
+
+
 
 
 
