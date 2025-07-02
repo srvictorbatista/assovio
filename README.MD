@@ -92,11 +92,13 @@ Você pode importar todos os exemplos de requisições disponíveis, através de
 Ao importar o arquivo collection, você também terá acesso a uma **documentação complementar** (para consulta rápida na **guia Docs/Overview**, destes ambientes). Com uma breve descrição de cada um dos REQUESTs disponíveis.
 
 Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Insômnia**: <BR>
+
  **``` Scratch Pad > Import > Choose Files ```**
 
 <BR> &nbsp;
 
 Para importar o **[ASSOVIO.collection.json](https://github.com/srvictorbatista/assovio/releases/download/v1.0.0/ASSOVIO.collection.json) no Postman**: <BR>
+
  **``` My Workspace > Import > Files ```**
 
 <!--
